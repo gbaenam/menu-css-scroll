@@ -1,0 +1,80 @@
+body {
+    font-family: 'Krona One', sans-serif;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+ul {
+    margin-top: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header {
+    top: 0;
+    height: 5rem;
+    position: sticky;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 5px -0.25rem rgba(0,0,0,.5);
+    /* background-color: yellow; */
+}
+
+.header__container {
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 81.25rem;
+}
+
+.header__title {
+    color: #444;
+    margin-right: auto;
+}
+
+.nav__menu {
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 3rem;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.nav__link {
+    color: #444;
+}
+
+.section {
+    margin: 0 auto;
+    padding: 1rem 0;
+    max-width: 81.25rem;
+}
+
+.section__image {
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.section__text {
+    margin: 0 auto;
+    column-gap: 4rem;
+    columns: 2 30rem;
+    max-width: 68.75rem;
+    column-rule: 0.0625rem solid lightgray;
+}
